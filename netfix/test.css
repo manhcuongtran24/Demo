@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    padding: 15px;
+  }
+  
+  .search-icon, .notification-icon, .profile-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .banner {
+    height: 400px;
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }

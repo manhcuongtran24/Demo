@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e50914;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .nav-icons span {
+            margin-left: 15px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .banner {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 3vw;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .recommendations {
+            padding: 20px;
+        }
+
+        .recommendations h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .movie-list {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+        }
+
+        .movie-list img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .movie-list img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+            .logo {
+                font-size: 20px;
+            }
+            .nav-icons {
+                display: flex;
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .movie-list {
+                flex-direction: column;
+                align-items: center;
+            }
+            .movie-list img {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NETFLIX</div>
+        <nav>
+            <a href="#">Trang chủ</a>
+            <a href="#">Phim / Thịnh hành</a>
+            <a href="#">Phim</a>
+            <a href="#">Mới & Phổ biến</a>
+            <a href="#">Danh sách của tôi</a>
+            <a href="#">Duyệt phim theo ngôn ngữ</a>
+        </nav>
+        <div class="nav-icons">
+            <span class="search-icon">🔍</span>
+            <span class="notification-icon">🔔</span>
+            <span class="profile-icon">👤</span>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="slideshow">
+            <img class="slide" src="https://cdn-images.vtv.vn/562122370168008704/2023/9/27/edit-photo-1-1695778724739314806721.png" alt="Tết ở làng Địa Ngục">
+            <img class="slide" src="https://cdn.tuoitre.vn/zoom/700_390/471584752817336320/2024/10/15/one-piece-egg-head-arc-anime-key-art-1728982505821164134226.jpg" alt="One Piece">
+            <img class="slide" src="https://cdn.tuoitre.vn/thumb_w/480/471584752817336320/2024/10/4/dandadan-1728028147188432692569.jpg" alt="Dandadan">
+            <img class="slide" src="https://minhtuanmobile.com/uploads/blog/tat-ca-nhung-gi-ban-can-biet-ve-anime-jujutsu-kaisen-mua-3-240817114133.jpg" alt="Jujutsu Kaisen">
+            <img class="slide" src="https://cdn-media.sforum.vn/storage/app/media/ctv_seo10/nhan-vat-chinh-cua-naruto-thumbnail.jpg" alt="Naruto">
+        </div>
+        <div class="banner-text">
+            <h1>Tết ở làng Địa Ngục</h1>
+        </div>
+    </section>
+
+    <section class="recommendations">
+        <h2>Đề cử</h2>
+        <div class="movie-list">
+            <img src="https://cdn-images.vtv.vn/562122370168008704/2023/9/27/edit-photo-1-1695778724739314806721.png" alt="Phim 1">
+            <img src="https://cdn.tuoitre.vn/zoom/700_390/471584752817336320/2024/10/15/one-piece-egg-head-arc-anime-key-art-1728982505821164134226.jpg" alt="Phim 2">
+            <img src="https://cdn.tuoitre.vn/thumb_w/480/471584752817336320/2024/10/4/dandadan-1728028147188432692569.jpg" alt="Phim 3">
+            <img src="https://minhtuanmobile.com/uploads/blog/tat-ca-nhung-gi-ban-can-biet-ve-anime-jujutsu-kaisen-mua-3-240817114133.jpg" alt="Phim 4">
+            <img src="https://cdn-media.sforum.vn/storage/app/media/ctv_seo10/nhan-vat-chinh-cua-naruto-thumbnail.jpg" alt="Phim 5">
+        </div>
+    </section>
+
+</body>
+</html>
