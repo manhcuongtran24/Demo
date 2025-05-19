@@ -2,7 +2,7 @@
 //BẠN SỬA MÃNG BÊN DƯỚI, MỖI PHẦN TỬ LÀ MỘT KÍ TỰ TÍNH LUỐN KÍ TỰ TRẮNG NHÉ! BẠN CÓ THỂ THÊM NHIỀU PHẦN TỬ HƠN KHÔNG NHẤT THIẾT LÀ 28
 //XEM KĨ VIDEO CỦA MÌNH HƠN Ở PHẦN NÀY NHÉ!
 
-status="duminhphongadv"
+status="TranManhCuong"
 var a=new Array(),n=""
 a[1]='Đ';
 a[2]='ơ';
@@ -17,9 +17,9 @@ a[10]=' ';
 a[11]='V';
 a[12]='ì';
 a[13]=' ';
-a[14]='M';
-a[15]='ầ';
-a[16]='y';
+a[14]='T';
+a[15]='ô';
+a[16]='i';
 a[17]=' ';
 a[18]='Đ';
 a[19]='ẹ';
@@ -91,11 +91,11 @@ one()
 					$("#divResult").fadeIn(2000,function()
 							{
 							$("#divResult2").fadeOut(0);
-							$("#divResult2").html("<p>♥ ỪA THÌ TAO BIẾT TAO ĐẸP TRAI THẬT. NHƯNG THÔI TAO CŨNG ĐÀNH CHỊU THIỆT YÊU MẦY VẬY .<img src='http://website1gia.com/files/assets/4.png'/></p></br>");
+							$("#divResult2").html("<p>♥ ỪA THÌ TÔI BIẾT TÔI ĐẸP TRAI THẬT. NHƯNG THÔI TAO CŨNG ĐÀNH CHỊU THIỆT YÊU CẬU VẬY .<img src='http://website1gia.com/files/assets/4.png'/></p></br>");
 							$("#divResult2").fadeIn(2000,function()
 									{
 									$("#divResult3").fadeOut(0);
-									$("#divResult3").html("<p>VẬY HÃY ĐỂ TRÁI TIM TAO THUỘC VỀ MẦY MỘT LẦN NHÉ!  <img src='http://website1gia.com/files/assets/5.png'/></p></br>");
+									$("#divResult3").html("<p>VẬY HÃY ĐỂ TRÁI TÔI THUỘC VỀ CẬU MỘT LẦN NHÉ!  <img src='http://website1gia.com/files/assets/5.png'/></p></br>");
 									$("#divResult3").fadeIn(2000);
 									}
 								);
